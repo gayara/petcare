@@ -1,0 +1,214 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    list-style: 1.5;
+    background-color: #F4FCD9;
+}
+
+h3{
+    font-family: "Montserrat-Bold";
+   
+}
+
+/* nav section */
+.navbar-brand{
+    margin-left: 2rem;
+    font-weight: bold;
+}
+.nav-item{
+    margin-right: 3rem;
+    font-size: 1rem;
+}
+
+.container1{
+    position: relative;
+}
+.cover-img {
+    height: 650px;
+    
+}
+.text-block{
+    display: block;
+    position:  absolute;
+    text-align: center;
+    color: #F0FF42;
+    top: 50%;
+  
+
+}
+.text-block p{
+    position:  relative;
+    font-size: 1.5rem;
+    color: #E1FFB1;
+    text-decoration-style: none;
+    padding: 0 10%;
+}
+
+/* features section */
+
+.features{
+    padding: 5% 10%;
+}
+.features h1{
+    text-align: center;
+}
+.features p{
+    color: gray;
+    padding: 3% 7%;
+}
+.features-box{
+    text-align: center;
+    padding: 5%;}
+
+.features-box i{
+    
+    color: #395144;
+    margin-bottom: 1rem;
+}
+.features-box i:hover{
+    color: #3D8361;
+}
+
+/* about section */
+
+.about{
+    
+    background-color: #3D8361;
+    color: #ffff;
+    padding:  5%;
+    
+}
+.about-content{
+    margin: auto 10% ;
+}
+
+.about-img{
+   
+    height: 90%;
+    width: 100%;
+    
+    
+}
+
+.about h1{
+    padding-bottom: 5%;
+    text-align: center;
+}
+.about-para{
+    font-size: 1rem;;
+    
+}
+
+/* servioces  section */
+#services{
+    padding: 7% 5%;
+    text-align: center;
+}
+.service-card{
+    text-align: center;
+    padding-top: 2%;
+    
+}
+.card{
+    margin: 1%  auto;
+    
+    
+}
+.card img{
+    height: 100%;
+    margin: 0% auto;
+   
+}
+.card-text{
+    color: gray;
+}
+
+/* photo section */
+
+#photo-carousel{
+    padding: 7%;
+    background-color: #3D8361;
+}
+#photo-carousel h1{
+    padding-bottom: 7%;
+    text-align: center;
+    color: #fff;
+}
+.card-img{
+    padding: 0.5rem;
+    height: 300px;
+    border-radius: 20%;
+    
+}
+
+/* footer section */
+
+#footer .row{
+    padding: 5% 20%;
+    text-align: center;
+
+}
+
+.opening{
+    list-style: none;
+    padding-top: 5px;
+    
+}
+.contact{
+    padding-left: 10%;
+}
+.symbol{
+    margin:0 10px;
+    color: #000;
+}
+.symbol:hover{
+    color: blue;
+}
+.copyright{
+    padding: 10px auto;
+    background-color: #3D8361 ;
+    text-align: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .text-block{
+        font-size: 5rem;
+    }
+    .text-block p{
+        font-size: 15%;;
+    }
+    .about-para{
+        font-size: 60%;
+        text-align: justify;
+        padding-top: 3%;
+    }
+    .about-img{
+        height: 120px;
+        width: 50%;
+        border-radius: 100%;
+       display: block;
+       margin: 0% auto;
+       
+    }
+    .cover-img {
+   
+        height: 20rem;
+        width: 100%;
+    }
+
+    .card-img{
+       
+        height: 200px;
+        width: 70%;
+    }
+    #footer .contact, h5, ul{
+        padding: 5% 20%;
+        text-align: center;
+    
+    }
+
+}
